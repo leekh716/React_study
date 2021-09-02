@@ -1,0 +1,54 @@
+.Insert {
+	display: flex;
+	background: #697078;
+	input {
+		display: flex;
+		text-align: center;
+		width: 30px;
+		background: none;
+		outline: none;
+		border: none;
+		padding: 0;
+		font-size: 1.125rem;
+		line-height: 1.5;
+		color: white;
+		&::placeholder {
+			color: #dee2e6;
+			font-size: 0.75rem;
+		}
+		&.todo {
+			text-align: left;
+			flex: 1 auto;
+			padding: 0.5rem;
+			&::placeholder {
+				font-size: 1.125rem;
+			}
+		}
+		&.year {
+			width: 40px;
+		}
+	}
+	span {
+		display: flex;
+		align-items: center;
+		font-size: 1rem;
+		color: white;
+	}
+	button {
+		background: none;
+		outline: none;
+		border: none;
+		background: #868e96;
+		color: white;
+		padding-left: 1rem;
+		padding-right: 1rem;
+		font-size: 1.125rem;
+		display: flex;
+		align-items: center;
+		cursor: pointer;
+		transition: 0.1s background ease-in;
+		&:hover {
+			background: #adb5bd;
+		}
+	}
+}

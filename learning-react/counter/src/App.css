@@ -1,0 +1,13 @@
+div {
+  text-align: center;
+  color: #93C47D;
+  font-size: 50px;
+}
+
+.reset {
+  margin: 0 10px 0 10px;
+}
+
+#num {
+  color:cornflowerblue;
+}

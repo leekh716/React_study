@@ -1,0 +1,48 @@
+.ListHead {
+	border: 1px solid #000;
+	border-bottom: 0;
+	margin: 10px 10px 0 10px;
+	display: flex;
+	text-align: center;
+	.ListId {
+		flex: 1.2;
+	}
+	.ListTitle {
+		flex: 12;
+	}
+	.ListTime {
+		flex: 4.5;
+	}
+}
+
+.List {
+	border: 1px solid #000;
+	margin: 0px 10px 10px 10px;
+	min-height: 350px;
+	max-height: 513px;
+	overflow-y: auto;
+}
+
+.writeButton {
+	float: right;
+	margin-right: 10px;
+	margin-bottom: 3px;
+	background-color: #CCCCCC;
+	outline: none;
+	border: none;
+	color: rgb(43, 33, 33);
+	padding-left: 9px;
+	padding-right: 9px;
+	font-size: 1.125rem;
+	cursor: pointer;
+	transition: 0.1s background ease-in;
+	&:hover {
+		background: #adb5bd;
+	}
+	a {
+		text-decoration: none;
+		color: inherit;
+	}
+}
+
+

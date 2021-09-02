@@ -1,0 +1,37 @@
+.WriteTitle {
+	width: 685px;
+	border: 1px solid #000;
+	margin: 10px 10px;
+}
+
+.WriteContent {
+	width: 685px;
+	border: 1px solid #000;
+	margin: 10px 10px;
+	min-height: 320px;
+	max-height: 513px;
+	overflow-y: auto;
+}
+
+.WriteButtons {
+	margin-right: 10px;
+	margin-bottom: 3px;
+	float: right;
+	background-color: #CCCCCC;
+	outline: none;
+	border: none;
+	color: rgb(43, 33, 33);
+	padding-left: 9px;
+	padding-right: 9px;
+	font-size: 1.125rem;
+	cursor: pointer;
+	transition: 0.1s background ease-in;
+	&:hover {
+		background: #adb5bd;
+	}
+	a {
+		text-decoration: none;
+		color: inherit;
+	}
+}
+

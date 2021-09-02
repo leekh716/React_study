@@ -1,0 +1,29 @@
+.ListItem {
+	padding: 5px;
+	display: flex;
+	align-items: center;
+	.itemLink {
+		flex: 12 1;
+		a {
+			text-decoration: none;
+			color: inherit;
+		}
+	}
+	.itemNum {
+		flex: 1;
+		text-align: center;
+		border-right: 1px solid #000;
+		margin-right: 15px;
+	}
+	.itemTime {
+		flex: 4;
+		text-align: left;
+	}
+	&:nth-child(even) {
+		background: #f8f9fa;
+	}
+
+	& + & {
+		border-top: 1px solid #dee2e6;
+	}
+}

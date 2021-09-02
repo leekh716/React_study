@@ -1,0 +1,144 @@
+* {
+  text-align: center;
+  padding: 0;
+}
+
+.home {
+  margin: 100px;
+}
+
+.timer {
+  margin: 10px 20px;
+  padding: 10px;
+  font-size: 30px;
+}
+
+input {
+  margin: 150px 0 80px 0;
+  width: 60px;
+  height: 60px;
+  font-size: 30px;
+  background: linear-gradient(45deg, #FE6B8B 30%, #FF8E53 90%);
+  border: 0;
+  border-radius: 3px;
+  box-shadow: 0 3px 5px 2px rgba(255, 105, 135, .3);
+  color: white;
+  font-weight: bold;
+}
+
+.currentTime {
+  display: inline-block;
+  margin: 80px 0 30px 0;
+  width: 60px;
+  height: 43px;
+  font-size: 30px;
+  border: 0;
+  border-radius: 3px;
+  box-shadow: 0 3px 5px 2px rgba(255, 105, 135, .3);
+  color: #EAD1DC;
+  font-weight: bold;
+  padding: 2px 0px;
+}
+
+.currentText {
+  font-size: 30px;
+  color: #EAD1DC;
+  font-weight: bold;
+  margin: 0 3px;
+}
+
+.setTime {
+  display: inline-block;
+  margin: 0px 0 40px 0;
+  width: 60px;
+  height: 43px;
+  font-size: 30px;
+  border: 0;
+  border-radius: 3px;
+  box-shadow: 0 3px 5px 2px rgba(159, 197, 232, .3);
+  color: #C8E0F6;
+  font-weight: bold;
+  padding: 2px 0px;
+}
+
+.setText {
+  font-size: 30px;
+  color: #C8E0F6;
+  font-weight: bold;
+  margin: 0 3px;
+}
+
+.timerTime {
+  display: inline-block;
+  margin: 0px 0 70px 0;
+  width: 180px;
+  height: 190px;
+  font-size: 130px;
+  border: 0;
+  border-radius: 3px;
+  box-shadow: 0 3px 5px 2px rgba(64, 70, 75, .3);
+  color: #40464B;
+  font-weight: bold;
+  padding: 2px 0px;
+}
+
+.timerText {
+  font-size: 130px;
+  color: #40464B;
+  font-weight: bold;
+  margin: 0 3px;
+}
+
+.timerTimeday {
+  display: inline-block;
+  margin: 0px 0 10px 0;
+  font-size: 50px;
+  color: #40464B;
+  font-weight: bold;
+  padding: 2px 0px;
+}
+
+.timerTextday {
+  text-align: left;
+  font-size: 50px;
+  color: #40464B;
+  font-weight: bold;
+  margin: 0 3px;
+}
+
+#timerDay {
+  text-align: left;
+  margin-left: 20px;
+}
+
+.text {
+  font-size: 30px;
+  color: #FF8E53;
+  font-weight: bold;
+  margin: 0 3px;
+}
+
+#year {
+  width: 100px;
+}
+
+.finish {
+  background-color: red;
+  height: 1000px;
+}
+
+.progress {
+  height: 1000px;
+}
+
+a {
+  background: #2994F6;
+  border: 0;
+  border-radius: 3px;
+  box-shadow: 0 3px 5px 2px rgba(0, 74, 142, .3);
+  color: white;
+  height: 48px;
+  padding: 6px 15px;
+  text-decoration-line: none;
+  font-weight: bold;
+}
