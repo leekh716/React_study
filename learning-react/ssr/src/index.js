@@ -5,13 +5,18 @@ import { BrowserRouter } from 'react-router-dom';
 import { createStore, applyMiddleware } from 'redux';
 import thunk from 'redux-thunk';
 import App from './App';
-import rootReducer from './modules/index';
+import rootReducer, { rootSaga } from './modules/index';
+import createSagaMiddleware from 'redux-saga';
+
+const sagaMiddleware = createSagaMiddleware();
 
 const store = createStore(
   rootReducer,
   window.__PRELOADED_STATE__,
-  applyMiddleware(thunk)
+  applyMiddleware(thunk, sagaMiddleware)
 );
+
+sagaMiddleware.run(rootSaga);
 
 ReactDOM.render(
   <Provider store={store}>
