@@ -4,6 +4,7 @@ import Router from 'koa-router';
 import bodyParser from 'koa-bodyparser';
 import mongoose from 'mongoose';
 import api from './api';
+import jwtMiddleware from './lib/jwtMiddleware';
 
 const { PORT, MONGO_URI } = process.env;
 
@@ -22,6 +23,8 @@ const router = new Router();
 
 router.use('/api', api.routes());
 app.use(bodyParser());
+app.use(jwtMiddleware);
+
 app.use(router.routes()).use(router.allowedMethods());
 
 const port = PORT || 4000;
