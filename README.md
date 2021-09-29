@@ -4,6 +4,10 @@ __2021\. 9\. 18__
 
 	react blog again
 
-__2021\. 9\. 18__
+__2021\. 9\. 28__
 
 	react blog ts version prep
+
+__2021\. 9\. 29__
+
+	react blog js stop
