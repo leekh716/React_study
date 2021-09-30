@@ -10,4 +10,4 @@ __2021\. 9\. 28__
 
 __2021\. 9\. 29__
 
-	react blog js stop
+	react blog pagination
