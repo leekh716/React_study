@@ -15,3 +15,7 @@ __2021\. 9\. 29__
 __2021\. 9\. 30__
 
 	react blog2 finish
+
+__2021\. 10\. 6__
+
+	interview prepare
