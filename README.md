@@ -19,3 +19,7 @@ __2021\. 9\. 30__
 __2021\. 10\. 6__
 
 	interview prepare
+
+__2021\. 10\. 7__
+
+	interview finish..
