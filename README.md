@@ -23,3 +23,7 @@ __2021\. 10\. 6__
 __2021\. 10\. 7__
 
 	interview finish..
+
+__2021\. 10\. 8__
+
+	interview failed..
